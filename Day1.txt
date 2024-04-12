@@ -1,5 +1,4 @@
 Git
-HitHub
+GitHub
 Jenkins
-
-Apple
+Maven 
