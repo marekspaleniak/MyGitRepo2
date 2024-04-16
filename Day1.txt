@@ -2,3 +2,6 @@ Git
 GitHub
 Jenkins
 Maven 
+
+Salesforce OOB
+Salesforce LWC
