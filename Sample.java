@@ -8,5 +8,6 @@ class Sample
         {
           System.out.println("Welcome "+i);
         }
+System.out.println("thank you ");
     }
   }
