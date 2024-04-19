@@ -1,0 +1,108 @@
+Day2:9092
+installed Jenkins on integration server.
+simple jobs
+services.msc
+what is Job ???
+Source code
+environment
+Execute
+Post Execution action 
+Trigger build remotely
+http://localhost:9092/job/Test01/build?token=Test01_Run
+http://localhost:9092/job/Job2/build?token=Test01_Run
+
+discard the old builds
+create chain job
+build after other projects are build
+
+POst build option 
+Recurring execution of the job  base on time
+Time 
+min hour dayofmonth month dayofweek
+0-59 0-23 0-30  0-11 0-6
+20 10 16 4 
+31 16 * 4 *
+
+refer https://crontab.guru/
+
+cd c:\ManishaJava
+javac Test1.java
+java Test
+
+Day 3 Git github 
+git-scm.com-->to download git 
+Demo --source code form github
+step 1: login Jenkins
+pull from github to local repository
+Push to github from local respo
+
+Built with Maven 
+Maven Integration 
+
+https://github.com/ainugiri/MavenRepo.git
+Maven Pipeline project 
+goal 
+validate install
+clean compile install
+
+Create user
+Manage roles 
+add plugin:role based authorization strategy
+
+Manager Jenkins--Security Role based security
+Manage and assign roles
+
+Pipeline
+grp of job/event
+chained
+integrated with each other 
+in sequence 
+job1-->job2--<job3
+
+2 ways to create pipe
+1.declarative 
+
+start ""  "%Programs%\Git\bin\git-bash.exe"
+git add.
+git commit -m "Forth commit"
+git remote set-url origin https://github.com/Manisha-atos/MyGitRepo2.git
+
+
+push github 
+maven Jenkins 
+life cycle
+
+
+sequence
+
+day 4:
+pipeline:
+
+
+Demo1 
+upward  job1  <--- job2(after compl  job1)
+
+downward job2( job3) ---> job3 
+
+pipeline view
+pipeline deli view 
+
+Pipleine project 
+script 
+view 
+monitor
+delivery pipeline 
+piepline 
+job1-->job2--->job3
+
+Authentication and Authorization 
+plugin ---role based ...
+
+day 5
+
+Authentication and authorization 
+webhook
+master slave arch
+
+
+ngrok http http://localhost:9092
